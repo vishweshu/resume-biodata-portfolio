@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Vishwesh U</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="alternate icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Include jQuery -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header>
+        <div class="nav-container">
+            <h1>Student Profile Portal</h1>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="resume.html">Resume</a>
+                <a href="biodata.html">Bio-Data</a>
+                <a href="contact.html">Contact</a>
+                <a href="../registration/index.html">Registration</a>
+                <a href="../index.html">Main Hub</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content Container -->
+    <main class="container">
+
+        <section class="card">
+            <h2>Get In Touch</h2>
+            <p>If you have any questions, feedback, or would like to get in touch regarding projects and academic discussions, please use the form below or contact directly.</p>
+
+            <table class="details-table" style="margin-top: 15px;">
+                <tr>
+                    <td class="label">Name:</td>
+                    <td>Vishwesh U</td>
+                </tr>
+                <tr>
+                    <td class="label">Email:</td>
+                    <td><a href="mailto:vishweshu706@gmail.com" style="color: #2563eb;">vishweshu706@gmail.com</a></td>
+                </tr>
+                <tr>
+                    <td class="label">Phone:</td>
+                    <td>+91 8089747041</td>
+                </tr>
+                <tr>
+                    <td class="label">Location:</td>
+                    <td>Ubarale House, Bekoor Post, Uppala, Kasaragod, Kerala - 671322</td>
+                </tr>
+                <tr>
+                    <td class="label">University:</td>
+                    <td>Visvesvaraya Technological University (VTU)</td>
+                </tr>
+                <tr>
+                    <td class="label">GitHub:</td>
+                    <td><a href="https://github.com/vishweshu" target="_blank" style="color: #2563eb;">https://github.com/vishweshu</a></td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- Interactive Contact Form -->
+        <section class="card">
+            <h2>Send a Message</h2>
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="name">Your Name *</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Your Email Address *</label>
+                    <input type="email" id="email" name="email" placeholder="example@domain.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Subject *</label>
+                    <select id="subject" name="subject" required>
+                        <option value="">-- Select Subject Category --</option>
+                        <option value="Academic Discussion">Academic / Technical Discussion</option>
+                        <option value="Project Collaboration">Project Collaboration (CropShield / VCET Bot)</option>
+                        <option value="Feedback on Website">Feedback on Website</option>
+                        <option value="General Inquiry">General Inquiry</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message *</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+                </div>
+
+                <button type="submit" class="btn">Submit Message</button>
+                <button type="reset" class="btn btn-secondary">Reset Form</button>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Vishwesh U</p>
+    </footer>
+
+</body>
+</html>

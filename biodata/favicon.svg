@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="vGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e3a8a" />
+      <stop offset="100%" stop-color="#2563eb" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  <!-- Background Rounded Square -->
+  <rect width="64" height="64" rx="16" fill="url(#vGrad)" />
+  <!-- Accent Top Pip -->
+  <circle cx="32" cy="13" r="3.5" fill="#38bdf8" />
+  <!-- Bold Stylized Monogram V -->
+  <path d="M18 19 L27 47 L37 47 L46 19 L38.5 19 L32 40 L25.5 19 Z" fill="#ffffff" filter="url(#shadow)" />
+</svg>

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - Vishwesh U</title>
+    <title>Vishwesh U - Web Applications Portal</title>
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <link rel="alternate icon" href="favicon.ico">
     <link rel="stylesheet" href="css/style.css">
@@ -16,12 +16,10 @@
     <!-- Header & Navigation -->
     <header>
         <div class="nav-container">
-            <h1>Student Profile Portal</h1>
+            <h1>Vishwesh U — Web Applications</h1>
             <nav>
-                <a href="index.html">Home</a>
-                <a href="resume.html">Resume</a>
-                <a href="biodata.html">Bio-Data</a>
-                <a href="contact.html">Contact</a>
+                <a href="index.html" class="active">Home</a>
+                <a href="biodata/index.html">Bio-Data & Resume</a>
                 <a href="registration/index.html">Registration</a>
             </nav>
         </div>
@@ -32,48 +30,52 @@
         
         <!-- Welcome Card -->
         <section class="card">
-            <h2>Welcome to My Website</h2>
-            <p>Hello! I am <strong>Vishwesh U</strong>, an engineering student pursuing <strong>B.E. in Computer Science & Engineering</strong> under <strong>Visvesvaraya Technological University (VTU)</strong>. Welcome to my personal website, presenting my professional <strong>Resume</strong> and comprehensive <strong>Bio-data</strong>.</p>
-            <p>Use the navigation links above or the buttons below to explore both profiles.</p>
+            <h2>Welcome to My Portal</h2>
+            <p>Hello! I am <strong>Vishwesh U</strong>, an engineering student pursuing <strong>B.E. in Computer Science & Engineering</strong> under <strong>Visvesvaraya Technological University (VTU)</strong>. This portal hosts both web applications organized into dedicated folders:</p>
+            <ul>
+                <li><strong>📁 Folder 1 (biodata/):</strong> Resume & Biographical Data Multi-Page Website</li>
+                <li><strong>📁 Folder 2 (registration/):</strong> Online Student Application & Registration System (PHP & jQuery)</li>
+            </ul>
         </section>
 
-        <!-- Resume Section Preview -->
-        <section class="card">
-            <h2>1. Professional Resume</h2>
-            <p>My resume highlights academic performance, technical skills, and software development projects including CropShield and the VCET Chatbot.</p>
-            <ul>
-                <li><strong>Name:</strong> Vishwesh U</li>
-                <li><strong>Education:</strong> B.E. in Computer Science & Engineering (VTU) — <strong>9.1 CGPA</strong></li>
-                <li><strong>Core Skills:</strong> C, C++, JavaScript, HTML5, CSS3, MySQL</li>
-                <li><strong>Featured Projects:</strong> CropShield (Smart Agricultural System), VCET Chatbot</li>
-            </ul>
-            <a href="resume.html" class="btn">View Full Resume</a>
-        </section>
+        <!-- Two Main Project Directories Grid -->
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 24px;">
+            
+            <!-- Folder 1: Bio-Data & Resume -->
+            <section class="card" style="display: flex; flex-direction: column; justify-content: space-between;">
+                <div>
+                    <h2>📁 biodata /</h2>
+                    <p><strong>Resume & Bio-Data Portal</strong></p>
+                    <p>Comprehensive multi-page personal website built with HTML5, CSS3, and jQuery.</p>
+                    <ul>
+                        <li><strong>Professional Resume:</strong> Career objective, VTU academic qualifications (9.1 CGPA), skills (C, C++, JS, MySQL), and projects (CropShield, VCET Chatbot).</li>
+                        <li><strong>Biographical Data:</strong> Personal background, family information, qualification table, and signed candidate declaration.</li>
+                        <li><strong>Print-Ready:</strong> One-click PDF / A4 paper print formatting.</li>
+                    </ul>
+                </div>
+                <div style="margin-top: 15px;">
+                    <a href="biodata/index.html" class="btn">Open biodata/ Folder &rarr;</a>
+                </div>
+            </section>
 
-        <!-- Bio-Data Section Preview -->
-        <section class="card">
-            <h2>2. Biographical Data (Bio-Data)</h2>
-            <p>The Bio-data page contains comprehensive personal records, educational milestones, family details, languages, and a formal signed declaration.</p>
-            <ul>
-                <li><strong>Date of Birth:</strong> 21st July 2006</li>
-                <li><strong>Native Address:</strong> Kasaragod, Kerala</li>
-                <li><strong>Languages Known:</strong> Kannada, English, Hindi</li>
-                <li><strong>Blood Group:</strong> O+ (Positive)</li>
-            </ul>
-            <a href="biodata.html" class="btn btn-secondary">View Full Bio-Data</a>
-        </section>
+            <!-- Folder 2: Registration -->
+            <section class="card" style="display: flex; flex-direction: column; justify-content: space-between;">
+                <div>
+                    <h2>📁 registration /</h2>
+                    <p><strong>Online Application & Registration System</strong></p>
+                    <p>Web application built with HTML, CSS, JavaScript, jQuery, and PHP for student course registration.</p>
+                    <ul>
+                        <li><strong>Client-Side Validation:</strong> Live jQuery checks for required fields, 10-digit mobile number, email regex, and character counter.</li>
+                        <li><strong>Formatted Receipt on Success:</strong> Formats and displays the application confirmation on the browser upon button click with unique Registration ID.</li>
+                        <li><strong>PHP Backend:</strong> Fully equipped with <code>index.php</code> and <code>process.php</code> for server-side processing.</li>
+                    </ul>
+                </div>
+                <div style="margin-top: 15px;">
+                    <a href="registration/index.html" class="btn btn-secondary">Open registration/ Folder &rarr;</a>
+                </div>
+            </section>
 
-        <!-- Online Registration Portal Preview -->
-        <section class="card">
-            <h2>3. Online Registration Application</h2>
-            <p>Interactive student registration system built with HTML, CSS, JavaScript, jQuery, and PHP. It captures applicant data with client-side verification and outputs a formatted application receipt ready for printing.</p>
-            <ul>
-                <li><strong>Features:</strong> Real-time input validation, responsive grid, dynamic character counter.</li>
-                <li><strong>Backend Processing:</strong> PHP sanitization, unique Application ID generation, and formatted confirmation receipt.</li>
-                <li><strong>Print Ready:</strong> One-click print styling formatted for PDF and physical export.</li>
-            </ul>
-            <a href="registration/index.html" class="btn" style="background: linear-gradient(135deg, #0d9488, #0f766e);">Open Registration Portal &rarr;</a>
-        </section>
+        </div>
 
     </main>
 

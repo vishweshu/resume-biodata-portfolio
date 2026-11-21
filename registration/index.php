@@ -51,7 +51,8 @@ if ($isSubmitted) {
                 <h1>Online Student Registration Portal</h1>
             </div>
             <div class="header-links">
-                <a href="../index.html">&larr; Back to Portfolio</a>
+                <a href="../biodata/index.html">Bio-Data & Resume</a>
+                <a href="../index.html" style="margin-left: 8px;">Home Hub</a>
             </div>
         </div>
     </header>

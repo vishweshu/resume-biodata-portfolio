@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bio-Data - Vishwesh U</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="alternate icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Include jQuery -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header>
+        <div class="nav-container">
+            <h1>Student Profile Portal</h1>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="resume.html">Resume</a>
+                <a href="biodata.html">Bio-Data</a>
+                <a href="contact.html">Contact</a>
+                <a href="../registration/index.html">Registration</a>
+                <a href="../index.html">Main Hub</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content Container -->
+    <main class="container">
+
+        <!-- Top Action Bar -->
+        <div style="text-align: right; margin-bottom: 15px;">
+            <button id="printBtn" class="btn btn-secondary">Print Bio-Data / Save as PDF</button>
+        </div>
+
+        <section class="card">
+
+            <div style="text-align: center; margin-bottom: 25px;">
+                <h1 style="font-size: 26px; color: #1e3a8a; letter-spacing: 1px;">CURRICULUM VITAE / BIO-DATA</h1>
+                <p style="color: #64748b;">(Biographical Information Sheet)</p>
+            </div>
+
+            <!-- 1. Personal Details -->
+            <h2>1. Personal Details</h2>
+            <table class="details-table">
+                <tr>
+                    <td class="label">Full Name:</td>
+                    <td>Vishwesh U</td>
+                </tr>
+                <tr>
+                    <td class="label">Date of Birth:</td>
+                    <td>21-07-2006 (21st July 2006)</td>
+                </tr>
+                <tr>
+                    <td class="label">Gender:</td>
+                    <td>Male</td>
+                </tr>
+                <tr>
+                    <td class="label">Nationality:</td>
+                    <td>Indian</td>
+                </tr>
+                <tr>
+                    <td class="label">Marital Status:</td>
+                    <td>Single / Unmarried</td>
+                </tr>
+                <tr>
+                    <td class="label">Blood Group:</td>
+                    <td>O+ (Positive)</td>
+                </tr>
+                <tr>
+                    <td class="label">Languages Known:</td>
+                    <td>Kannada, English, Hindi</td>
+                </tr>
+                <tr>
+                    <td class="label">Permanent Address:</td>
+                    <td>Ubarale House, Bekoor Post, Uppala, Kasaragod, Kerala - 671322</td>
+                </tr>
+                <tr>
+                    <td class="label">Contact Number:</td>
+                    <td>+91 8089747041</td>
+                </tr>
+                <tr>
+                    <td class="label">Email Address:</td>
+                    <td>vishweshu706@gmail.com</td>
+                </tr>
+            </table>
+
+            <!-- 2. Academic Record -->
+            <h2>2. Academic Record</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>S.No.</th>
+                        <th>Examination Passed</th>
+                        <th>Institution / School</th>
+                        <th>Board / University</th>
+                        <th>Percentage / CGPA</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td><strong>B.E. (Computer Science & Engineering)</strong></td>
+                        <td>Affiliated Engineering College</td>
+                        <td>Visvesvaraya Technological University (VTU)</td>
+                        <td><strong>9.1 CGPA</strong></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td><strong>Class XII (Higher Secondary)</strong></td>
+                        <td>Sharada Vidyanikethana P U college</td>
+                        <td>State Board</td>
+                        <td><strong>89.9 %</strong></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td><strong>Class X (Secondary School)</strong></td>
+                        <td>Sharada Vidyanikethana public school</td>
+                        <td>CBSE</td>
+                        <td><strong>79.8 %</strong></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!-- 3. Family Background -->
+            <h2>3. Family Background</h2>
+            <table class="details-table">
+                <tr>
+                    <td class="label">Father's Occupation:</td>
+                    <td>Agriculture / Farming</td>
+                </tr>
+                <tr>
+                    <td class="label">Mother's Occupation:</td>
+                    <td>Housewife / Homemaker</td>
+                </tr>
+                <tr>
+                    <td class="label">Siblings:</td>
+                    <td>1 Brother</td>
+                </tr>
+            </table>
+
+            <!-- 4. Hobbies & Extracurricular Interests -->
+            <h2>4. Hobbies & Interests</h2>
+            <ul>
+                <li>Coding, software development, and exploring web technologies.</li>
+                <li>Agricultural innovation and technology-driven farming solutions.</li>
+                <li>Playing outdoor sports and games.</li>
+                <li>Reading technology updates and scientific innovations.</li>
+            </ul>
+
+            <!-- 5. Declaration -->
+            <h2>5. Formal Declaration</h2>
+            <p class="declaration-text">
+                "I hereby solemnly declare that all the information and particulars provided in this Bio-data are true, complete, and correct to the best of my knowledge and belief."
+            </p>
+
+            <!-- Signature Section -->
+            <div class="signature-section">
+                <div>
+                    <p><strong>Place:</strong> Uppala, Kasaragod</p>
+                    <p><strong>Date:</strong> <span id="currentDate">21 November 2026</span></p>
+                </div>
+                <div style="text-align: right;">
+                    <p style="font-family: 'Brush Script MT', cursive, sans-serif; font-size: 24px; color: #1e3a8a; margin-bottom: 5px;">Vishwesh U</p>
+                    <p><strong>(Signature of Candidate)</strong></p>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Vishwesh U</p>
+    </footer>
+
+</body>
+</html>
