@@ -1,4 +1,4 @@
-// Simple jQuery and JavaScript for Student Assignment
+// Vishwesh U - Personal Website Scripts (jQuery & JavaScript)
 
 $(document).ready(function () {
     // 1. Highlight the current active page in the navigation bar

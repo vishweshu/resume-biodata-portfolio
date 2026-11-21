@@ -1,4 +1,4 @@
-# Web Technology Assignment: Resume & Bio-Data Website
+# Vishwesh U - Personal Website: Resume & Bio-Data Portal
 
 A multi-page responsive website constructed using **HTML5**, **CSS3**, **JavaScript**, and **jQuery**, hosted on the cloud.
 
