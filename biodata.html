@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bio-Data - Vishweshu</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Include jQuery -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header>
+        <div class="nav-container">
+            <h1>Student Profile Portal</h1>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="resume.html">Resume</a>
+                <a href="biodata.html">Bio-Data</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content Container -->
+    <main class="container">
+
+        <!-- Top Action Bar -->
+        <div style="text-align: right; margin-bottom: 15px;">
+            <button id="printBtn" class="btn btn-secondary">Print Bio-Data / Save as PDF</button>
+        </div>
+
+        <section class="card">
+
+            <div style="text-align: center; margin-bottom: 25px;">
+                <h1 style="font-size: 26px; color: #1e3a8a; letter-spacing: 1px;">CURRICULUM VITAE / BIO-DATA</h1>
+                <p style="color: #64748b;">(Biographical Information Sheet)</p>
+            </div>
+
+            <!-- 1. Personal Details -->
+            <h2>1. Personal Details</h2>
+            <table class="details-table">
+                <tr>
+                    <td class="label">Full Name:</td>
+                    <td>Vishweshu</td>
+                </tr>
+                <tr>
+                    <td class="label">Father's Name:</td>
+                    <td>Mr. R. K. Sharma</td>
+                </tr>
+                <tr>
+                    <td class="label">Mother's Name:</td>
+                    <td>Mrs. S. Sharma</td>
+                </tr>
+                <tr>
+                    <td class="label">Date of Birth:</td>
+                    <td>15th August 2004</td>
+                </tr>
+                <tr>
+                    <td class="label">Gender:</td>
+                    <td>Male</td>
+                </tr>
+                <tr>
+                    <td class="label">Nationality:</td>
+                    <td>Indian</td>
+                </tr>
+                <tr>
+                    <td class="label">Marital Status:</td>
+                    <td>Single / Unmarried</td>
+                </tr>
+                <tr>
+                    <td class="label">Blood Group:</td>
+                    <td>B+ (Positive)</td>
+                </tr>
+                <tr>
+                    <td class="label">Languages Known:</td>
+                    <td>English, Hindi</td>
+                </tr>
+                <tr>
+                    <td class="label">Permanent Address:</td>
+                    <td>#42, 5th Main Road, Silicon Enclave, Bengaluru - 560001, Karnataka, India</td>
+                </tr>
+                <tr>
+                    <td class="label">Contact Number:</td>
+                    <td>+91 98765 43210</td>
+                </tr>
+                <tr>
+                    <td class="label">Email Address:</td>
+                    <td>vishweshu706@gmail.com</td>
+                </tr>
+            </table>
+
+            <!-- 2. Academic Record -->
+            <h2>2. Academic Record</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>S.No.</th>
+                        <th>Examination Passed</th>
+                        <th>School / College</th>
+                        <th>Board / University</th>
+                        <th>Passing Year</th>
+                        <th>Percentage / CGPA</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>B.Tech (CSE)</td>
+                        <td>School of Engineering</td>
+                        <td>State Technical University</td>
+                        <td>2022 - 2026</td>
+                        <td>8.6 CGPA</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Class XII (HSC)</td>
+                        <td>Senior Secondary School</td>
+                        <td>CBSE / State Board</td>
+                        <td>2022</td>
+                        <td>88.5%</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Class X (SSLC)</td>
+                        <td>Public School</td>
+                        <td>CBSE / State Board</td>
+                        <td>2020</td>
+                        <td>91.2%</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!-- 3. Family Background -->
+            <h2>3. Family Background</h2>
+            <table class="details-table">
+                <tr>
+                    <td class="label">Father's Occupation:</td>
+                    <td>Service / Professional</td>
+                </tr>
+                <tr>
+                    <td class="label">Mother's Occupation:</td>
+                    <td>Homemaker / Teacher</td>
+                </tr>
+                <tr>
+                    <td class="label">Siblings:</td>
+                    <td>1 Brother (Pursuing Higher Education)</td>
+                </tr>
+            </table>
+
+            <!-- 4. Hobbies & Extracurricular Interests -->
+            <h2>4. Hobbies & Interests</h2>
+            <ul>
+                <li>Competitive coding, web design, and solving algorithmic problems.</li>
+                <li>Playing Badminton and Chess.</li>
+                <li>Reading technology blogs, science articles, and non-fiction books.</li>
+                <li>Volunteering in community and collegiate technical fest events.</li>
+            </ul>
+
+            <!-- 5. Declaration -->
+            <h2>5. Formal Declaration</h2>
+            <p class="declaration-text">
+                "I hereby solemnly declare that all the information and particulars provided in this Bio-data are true, complete, and correct to the best of my knowledge and belief."
+            </p>
+
+            <!-- Signature Section -->
+            <div class="signature-section">
+                <div>
+                    <p><strong>Place:</strong> Bengaluru, India</p>
+                    <p><strong>Date:</strong> <span id="currentDate">21 November 2026</span></p>
+                </div>
+                <div style="text-align: right;">
+                    <p style="font-family: 'Brush Script MT', cursive, sans-serif; font-size: 24px; color: #1e3a8a; margin-bottom: 5px;">Vishweshu</p>
+                    <p><strong>(Signature of Candidate)</strong></p>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Vishweshu - Web Technology Assignment | Hosted on Cloud</p>
+    </footer>
+
+</body>
+</html>
